@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:myapp/screen/builder_screen.dart';
 import 'package:myapp/screen/screen2.dart';
 import 'package:myapp/screen/gridview.dart';
+import '../screen/home_screen02.dart';
 import '../screen/screen3.dart';
 
 class MyFirstApp extends StatelessWidget {
@@ -11,7 +12,7 @@ class MyFirstApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       debugShowCheckedModeBanner:false ,
-      home: GridViewDemo(),
+      home: HomeScreen2(),
       themeMode: ThemeMode.system,
       theme: ThemeData(brightness: Brightness.light,
           elevatedButtonTheme:ElevatedButtonThemeData(
